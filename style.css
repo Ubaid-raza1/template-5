@@ -1,0 +1,443 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("./images/coffeehouse2.jpg");
+    height: 493px;
+    width: 100%;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    background-color: black;
+    padding: 11.5px 16px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+}
+
+nav ul>li {
+    color: white;
+    list-style: none;
+    font-family: "Inconsolata", sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    width: 50%;
+    text-align: center;
+}
+
+li:hover {
+    background-color: silver;
+    color: black;
+}
+
+.head-1>span {
+    font-size: 90px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    top: 111px;
+    line-height: 135px;
+    font-family: "Inconsolata", sans-serif;
+    text-align: center;
+
+}
+
+.text-2 {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.text-2>p {
+    position: relative;
+    top: 187px;
+    margin: auto 24px;
+    font-family: "Inconsolata", sans-serif;
+    font-size: 15px;
+
+}
+
+.txt-1 {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 8px 4px 8px;
+}
+
+/* step second */
+.second-div {
+    padding: 0.01em 16px;
+    padding-bottom: 48px;
+    background-color: #f6f5f2;
+}
+
+.container-2 {
+    text-align: center;
+    font-family: "Inconsolata", sans-serif;
+    margin: 0px 308.5px;
+    max-width: 980px;
+}
+
+
+
+.head-2>h5 {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 4px;
+    padding: 1px 8px 2px 8px;
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.head-2 {
+    padding: 64px 0px;
+    margin: 10px 0px;
+}
+
+.text-3,
+.text-4,
+.text-5>p {
+    font-size: 18px;
+    text-align: justify;
+    max-width: 700px;
+    margin: 0px auto;
+    line-height: 25px;
+}
+
+.text-3 {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.text-4 {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.text-5 {
+    margin-top: 18px;
+    border: 1px solid #f1f1f1;
+    border-left: 6px #ccc solid;
+    margin: 0px auto;
+    max-width: 700px;
+    text-align: justify;
+    font-size: 18px;
+    background-color: #f1f1f1;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    padding-left: 18px;
+    padding-right: 27px;
+}
+
+.italic {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-style: italic;
+}
+
+.text-5>p {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.img-1>img {
+    margin-top: 16px;
+    width: 100%;
+
+}
+
+.text-6 {
+    text-align: left;
+    /* text-align: justify; */
+    font-size: 18px;
+}
+
+.text-6,
+.txt-2 {
+    margin-bottom: 18px;
+
+}
+
+.text-6,
+.txt-3 {
+    margin-top: 20px;
+    margin-bottom: 18px;
+
+}
+
+
+/* step three */
+.container-3 {
+    text-align: center;
+    margin: 0px 308.5px;
+}
+
+.head-3 {
+    padding: 48px 0px;
+    margin: 10px 0px;
+}
+
+.head-3>span {
+    font-size: 18px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    padding: 1px 8px 2px 8px;
+    display: inline-block;
+    letter-spacing: 4px;
+}
+
+.menu-after {
+    border: 1px #f6f5f2 solid;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+
+.form-btn {
+    display: flex;
+    border-bottom: 1px #f6f5f2 solid;
+    text-transform: capitalize;
+    padding: 8px 16px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+
+.form-btn>.btn {
+    width: 49.99999%
+}
+
+.btn {
+    font-size: 18px;
+    text-transform: capitalize;
+    background-color: #616161;
+    color: #fff;
+    font-family: "Inconsolata", sans-serif;
+    border: none;
+    padding: 4.5px 0px
+}
+
+.btn-2 {
+    background-color: #f6f5f2;
+    color: black;
+}
+
+.form-under-container {
+    padding: 48px 16px;
+    text-align: left;
+}
+
+
+.menu-txt-1>h5 {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+.menu-txt-1>p {
+    font-family: "Inconsolata", sans-serif;
+    color: #757575;
+    font-size: 18px;
+    margin: 18px 0px;
+    padding: 7px 0px 42px 0px
+}
+
+.menu-txt-2>h5 {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+.menu-txt-2>p {
+    font-family: "Inconsolata", sans-serif;
+    color: #757575;
+    font-size: 18px;
+    margin: 18px 0px;
+    padding: 7px 0px 42px 0px
+}
+
+.menu-txt-3>h5 {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 0px;
+
+}
+
+.menu-txt-3>p {
+    font-family: "Inconsolata", sans-serif;
+    color: #757575;
+    font-size: 18px;
+    margin: 18px 0px;
+    padding: 7px 0px 42px 0px
+}
+
+.menu-txt-4>h5 {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+.menu-txt-4>p {
+    font-family: "Inconsolata", sans-serif;
+    color: #757575;
+    font-size: 18px;
+    margin: 18px 0px;
+    padding: 7px 0px 42px 0px
+}
+
+.menu-txt-5>h5 {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+.menu-txt-5>p {
+    font-family: "Inconsolata", sans-serif;
+    color: #757575;
+    font-size: 18px;
+    margin: 18px 0px;
+    padding: 7px 0px 42px 0px
+}
+
+.img-2>img {
+    width: 100%
+}
+
+.img-2 {
+    margin-top: 32px;
+}
+
+/* step four */
+.container-4 {
+    text-align: center;
+    margin: 0px 308.5px;
+}
+
+.head-4>span {
+    font-size: 18px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    padding: 1px 8px 2px 8px;
+    display: inline-block;
+    letter-spacing: 4px;
+}
+
+.head-4 {
+    padding: 48px 0px;
+    margin: 10px 0px;
+}
+
+.text-7 {
+    margin: 18px;
+}
+
+.text-7>p {
+    font-family: "Inconsolata", sans-serif;
+    font-size: 18px;
+    color: #000;
+    text-align: left;
+    position: relative;
+    right: 17px;
+}
+
+.img-3>img {
+    width: 100%;
+    margin: auto;
+}
+
+.text-8 {
+    font-family: "Inconsolata", sans-serif;
+    font-size: 18px;
+    text-align: left;
+    line-height: 25px;
+    margin: 18px 0px;
+
+}
+
+.txt-8-sm {
+    font-size: 18px;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 8px 5px 8px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.text-9>p {
+    text-align: left;
+    font-family: "Inconsolata", sans-serif;
+    font-size: 18px;
+    margin: 18px 0px;
+}
+
+.forms {
+    display: flex;
+    display: inline-block;
+    width: 100%;
+}
+
+input {
+    padding: 16px 8px;
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    margin: 10px 0px;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 16px;
+    line-height: 3px;
+}
+
+.btn-3 {
+    text-align: left;
+}
+
+.btn-3>button {
+    font-size: 18px;
+    font-family: "Inconsolata", sans-serif;
+    padding: 10px 16px;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+}
+
+/* step five */
+.container-5>footer {
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    font-family: "Inconsolata", sans-serif;
+    font-size: 18px;
+}
+footer>p{
+    margin: 18px 0px;
+}
+footer,p>a{
+    color: #000;
+}
+.container-5{
+    background-color: #f1f1f1;
+}
