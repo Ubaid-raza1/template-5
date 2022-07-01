@@ -16,15 +16,13 @@
   </head>
   <body>
     <div class="main-container">
-      <div class="container-1">
+      <div class="container-1" id="home">
         <div class="navbar">
           <nav>
-            <ul>
-              <li>home</li>
-              <li>about</li>
-              <li>menu</li>
-              <li>where</li>
-            </ul>
+            <a class="nav-href nav-li" href="#home">home</a>
+            <a class="nav-href nav-li" href="#about">about</a>
+            <a class="nav-href nav-li" href="#menu">menu</a>
+            <a class="nav-href nav-li" href="#where"> where</a>
           </nav>
         </div>
         <div class="head-1">
@@ -35,11 +33,11 @@
         </div>
         <div class="text-2">
           <p class="txt-1">Open from 6am to 5pm</p>
-          <p>15 Adr street, 5015</p>
+          <p class="para-txt">15 Adr street, 5015</p>
         </div>
       </div>
       <div class="second-div">
-        <div class="container-2">
+        <div class="container-2" id="about">
           <div class="head-2">
             <h5>ABOUT THE CAFE</h5>
           </div>
@@ -78,7 +76,7 @@
             </p>
           </div>
         </div>
-        <div class="container-3">
+        <div class="container-3" id="menu">
           <div class="head-3">
             <span>THE MENU</span>
           </div>
@@ -142,7 +140,7 @@
             <img src="./images/coffeehouse3.jpg" alt="" />
           </div>
         </div>
-        <div class="container-4">
+        <div class="container-4" id="where">
           <div class="head-4">
             <span>WHERE TO FIND US</span>
           </div>
@@ -168,17 +166,23 @@
           </div>
           <div class="forms">
             <form>
-              <input type="text" placeholder="Name" /><br />
-              <input type="number" placeholder="How many people" /><br />
+              <input type="text" placeholder="Name" required /><br />
+              <input
+                type="number"
+                placeholder="How many people"
+                required
+              /><br />
               <input
                 type="datetime-local"
                 value="2020-12-12T19:30"
                 min="2020-12-07T00:00"
                 max="2020-12-14T00:00"
+                required
               /><br />
               <input
                 type="text"
                 placeholder="Message \ Spiecial requirements"
+                required
               />
               <div class="btn-3">
                 <button>send message</button>

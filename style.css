@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container-1 {
     background-position: center;
     background-size: cover;
@@ -12,35 +16,39 @@
     width: 100%;
 }
 
-nav>ul {
+
+
+nav {
+    background-color: black;
+    padding: 6px 16px 7px 16px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
     display: flex;
     justify-content: space-around;
 }
 
-nav {
-    background-color: black;
-    padding: 11.5px 16px;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
 
-}
-
-nav ul>li {
-    color: white;
-    list-style: none;
-    font-family: "Inconsolata", sans-serif;
+.nav-href {
+    text-decoration: none;
     font-size: 15px;
+    font-family: "Inconsolata", sans-serif;
     text-transform: uppercase;
-    padding: 8px 16px;
+    padding: 13px 16px;
+    color: #fff;
     width: 50%;
+    list-style: none;
     text-align: center;
 }
 
-li:hover {
+
+.nav-li:hover {
     background-color: silver;
-    color: black;
+    color: #000;
 }
+
+
+
 
 .head-1>span {
     font-size: 90px;
@@ -76,6 +84,7 @@ li:hover {
     background-color: #000;
     color: #fff;
     padding: 3px 8px 4px 8px;
+    margin-top: 2px;
 }
 
 /* step second */
@@ -88,8 +97,8 @@ li:hover {
 .container-2 {
     text-align: center;
     font-family: "Inconsolata", sans-serif;
-    margin: 0px 308.5px;
-    max-width: 980px;
+    margin: auto;
+    max-width: 700px;
 }
 
 
@@ -114,10 +123,9 @@ li:hover {
 .text-4,
 .text-5>p {
     font-size: 18px;
-    text-align: justify;
-    max-width: 700px;
     margin: 0px auto;
-    line-height: 25px;
+    line-height: 27px;
+    text-align: left;
 }
 
 .text-3 {
@@ -140,8 +148,8 @@ li:hover {
     font-size: 18px;
     background-color: #f1f1f1;
     margin-top: 18px;
-    margin-bottom: 18px;
-    padding-left: 18px;
+    margin-bottom: 19px;
+    padding-left: 15px;
     padding-right: 27px;
 }
 
@@ -157,27 +165,24 @@ li:hover {
 }
 
 .img-1>img {
-    margin-top: 16px;
+    margin-top: 12px;
     width: 100%;
 
 }
 
 .text-6 {
     text-align: left;
-    /* text-align: justify; */
     font-size: 18px;
 }
 
-.text-6,
-.txt-2 {
-    margin-bottom: 18px;
-
+.text-6>.txt-2 {
+    margin-top: 20px;
+    margin-bottom: 25px;
 }
 
-.text-6,
-.txt-3 {
+.text-6>.txt-3 {
     margin-top: 20px;
-    margin-bottom: 18px;
+    margin-bottom: 30px;
 
 }
 
@@ -185,7 +190,8 @@ li:hover {
 /* step three */
 .container-3 {
     text-align: center;
-    margin: 0px 308.5px;
+    margin: auto;
+    max-width: 700px;
 }
 
 .head-3 {
@@ -206,6 +212,8 @@ li:hover {
 .menu-after {
     border: 1px #f6f5f2 solid;
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    width: 100%;
+
 }
 
 
@@ -330,7 +338,8 @@ li:hover {
 /* step four */
 .container-4 {
     text-align: center;
-    margin: 0px 308.5px;
+    max-width: 700px;
+    margin: auto;
 }
 
 .head-4>span {
@@ -363,7 +372,6 @@ li:hover {
 
 .img-3>img {
     width: 100%;
-    margin: auto;
 }
 
 .text-8 {
@@ -371,15 +379,14 @@ li:hover {
     font-size: 18px;
     text-align: left;
     line-height: 25px;
-    margin: 18px 0px;
-
+    margin: 15px 0px;
 }
 
 .txt-8-sm {
     font-size: 18px;
     background-color: #000;
     color: #fff;
-    padding: 5px 8px 5px 8px;
+    padding: 0px 8px 0px 8px;
     display: inline-block;
     margin-right: 10px;
 }
@@ -389,6 +396,7 @@ li:hover {
     font-family: "Inconsolata", sans-serif;
     font-size: 18px;
     margin: 18px 0px;
+
 }
 
 .forms {
@@ -398,46 +406,59 @@ li:hover {
 }
 
 input {
-    padding: 16px 8px;
+    padding: 22px 8px;
     width: 100%;
     display: inline-block;
     border: 1px solid #ccc;
-    margin: 10px 0px;
+    margin: 11px 0px;
 }
 
 input::-webkit-input-placeholder {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 3px;
 }
 
 .btn-3 {
     text-align: left;
+    margin-top: 10px;
 }
 
 .btn-3>button {
+
     font-size: 18px;
     font-family: "Inconsolata", sans-serif;
-    padding: 10px 16px;
+    padding: 13px 16px;
     text-transform: uppercase;
     background-color: #000;
     color: #fff;
     display: inline-block;
+    border: none;
+}
+
+.btn-3>button:hover {
+    background-color: silver;
+    color: #000;
 }
 
 /* step five */
 .container-5>footer {
     text-align: center;
-    padding-top: 48px;
+    padding-top: 54px;
     padding-bottom: 48px;
     font-family: "Inconsolata", sans-serif;
     font-size: 18px;
 }
-footer>p{
+
+footer>p {
     margin: 18px 0px;
 }
-footer,p>a{
+
+footer,
+p>a {
     color: #000;
 }
-.container-5{
+
+.container-5 {
     background-color: #f1f1f1;
+    height: 160px;
 }
