@@ -9,6 +9,7 @@ html {
 }
 
 .container-1 {
+    position: relative;
     background-position: center;
     background-size: cover;
     background-image: url("./images/coffeehouse2.jpg");
@@ -41,14 +42,10 @@ nav {
     text-align: center;
 }
 
-
 .nav-li:hover {
     background-color: silver;
     color: #000;
 }
-
-
-
 
 .head-1>span {
     font-size: 90px;
@@ -66,25 +63,27 @@ nav {
 }
 
 .text-2 {
-    display: flex;
-    justify-content: space-between;
     color: #fff;
-}
-
-.text-2>p {
-    position: relative;
-    top: 187px;
-    margin: auto 24px;
     font-family: "Inconsolata", sans-serif;
     font-size: 15px;
-
 }
 
-.txt-1 {
-    background-color: #000;
-    color: #fff;
+
+
+.para-txt-2>p {
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+    padding: 12px 24px;
+}
+
+.para-txt-1>p {
+    position: absolute;
     padding: 3px 8px 4px 8px;
-    margin-top: 2px;
+    bottom: 12px;
+    left: 24px;
+    background-color: #000;
+    display: inline-block;
 }
 
 /* step second */
@@ -410,7 +409,7 @@ input {
     width: 100%;
     display: inline-block;
     border: 1px solid #ccc;
-    margin: 11px 0px;
+    margin: 9px 0px;
 }
 
 input::-webkit-input-placeholder {
@@ -420,14 +419,14 @@ input::-webkit-input-placeholder {
 
 .btn-3 {
     text-align: left;
-    margin-top: 10px;
+    margin-top: 9.9px;
 }
 
 .btn-3>button {
 
     font-size: 18px;
     font-family: "Inconsolata", sans-serif;
-    padding: 13px 16px;
+    padding: 12px 16px 13px 16px;
     text-transform: uppercase;
     background-color: #000;
     color: #fff;
@@ -461,4 +460,11 @@ p>a {
 .container-5 {
     background-color: #f1f1f1;
     height: 160px;
+}
+
+@media only screen and (max-width: 600px) {
+    .para-txt-1 {
+        display: none;
+    }
+
 }
